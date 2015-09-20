@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
+  <meta name="viewport"
+    content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  </meta>
+
   <head>
+  <script src="../components/webcomponentsjs/webcomponents.js">
+  </script>
     <title>Fleetly Matrix</title>
     <style>
       html, body {
@@ -43,6 +49,7 @@
         font-size: 11px;
       }
     </style>
+
   </head>
   <body>
     <div id="right-panel">
@@ -156,7 +163,11 @@ function initMap() {
       var service = new google.maps.DistanceMatrixService;
       service.getDistanceMatrix({
       origins: coords,
+<<<<<<< HEAD
       destinations: ["Pier 70, SF"],
+=======
+      destinations: ['Pier 70, San Francisco'],
+>>>>>>> 23eae1661d9d6de8e3ee46f24ff390acba0dedf0
       travelMode: google.maps.TravelMode.DRIVING,
       unitSystem: google.maps.UnitSystem.METRIC,
       avoidHighways: false,
