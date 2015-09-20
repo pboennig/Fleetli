@@ -1,0 +1,27 @@
+ html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 95%;
+      }
+      #floating-panel {
+        height: 3%;
+      }
+#floating-panel {
+  top: 10px;
+  left: 25%;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Helvetica','sans-serif';
+  line-height: 50px;
+  padding-left: 10px;
+  font-size:14pt;
+}
+
+.enter {
+  font-size: 12pt;
+}
