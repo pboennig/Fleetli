@@ -68,8 +68,28 @@
   });
       }
         
+    function getDistance(lat, lon) {
+
+    }
     
      
+
+      var Police = Parse.Object.extend("police");
+      var origins = [];
+      var query = new Parse.Query(Police);
+      query.find({
+        success: function(results) {
+        // Do something with the returned Parse.Object values
+        for (var i = 0; i < results.length; i++) {
+            var object = results[i];
+            origins.push(object.get('lon'));
+            origins.push(object.get('lat'));
+        }
+      },
+        error: function(error) {
+        }
+      });
+      
       
       function geocodeAddress(geocoder, resultsMap) {
         var address = document.getElementById('address').value;
@@ -94,6 +114,9 @@
               descrip: Descrip,
               numPC : numPC,
             });
+
+            window.dest = { lat: results[0].geometry.location.H, lon : results[0].geometry.location.l }
+
             Parse.Cloud.run('getLocation');
       
           } else {
@@ -102,7 +125,20 @@
         });
       }
 
+      var service = new google.maps.DistanceMatrixService();
+      service.getDistanceMatrix(
+      { 
+          origins: orignins,
+          destinations: [window.dest, destinationB],
+          unitSystem: IMPERIALUnitSystem,
 
+      }, callback);
+
+      function callback(response, status) {
+          
+      }
+
+    
 
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqNnf-iMox3CFoo6amrhm2CYmzMEebIo4&signed_in=true&callback=initMap"
