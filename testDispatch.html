@@ -43,6 +43,7 @@
         font-size: 11px;
       }
     </style>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
   </head>
   <body>
     <div id="right-panel">
@@ -50,7 +51,7 @@
 
       </div>
       <div>
-        <strong>Results</strong>
+        <h2>Possible Routes </h2>
       </div>
       <div id="output"></div>
     </div>
@@ -83,6 +84,7 @@ function initMap() {
     var Police_uno = Parse.Object.extend("police");
     var query = new Parse.Query(Police);
 
+
     query.first({
       success: function(object) {
 
@@ -96,7 +98,10 @@ function initMap() {
           var coord = { lat: lats[i], lng: lngs[i]};
           coords.push(coord);
         }
-  
+  var destinationF = 'Ferry Building, SF';
+
+
+
       var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 12,
       center: {lat: 37.78, lng: -122.42}
@@ -112,11 +117,12 @@ function initMap() {
       center: {lat: 37.78, lng: -122.42} });
       var geocoder = new google.maps.Geocoder;
 
-      
+   
+
       var service = new google.maps.DistanceMatrixService;
       service.getDistanceMatrix({
       origins: coords,
-      destinations: ["Pier 70, SF"],
+      destinations: [destinationF],
       travelMode: google.maps.TravelMode.DRIVING,
       unitSystem: google.maps.UnitSystem.METRIC,
       avoidHighways: false,
@@ -130,7 +136,6 @@ function initMap() {
       var outputDiv = document.getElementById('output');
       outputDiv.innerHTML = '';
       deleteMarkers(markersArray);
-
       var showGeocodedAddressOnMap = function(asDestination) {
         var icon = asDestination ? destinationIcon : originIcon;
         return function(results, status) {
@@ -163,8 +168,6 @@ function initMap() {
               times.push(results[j].duration.value);
           }
       }
-
-        ///MIHIR GO HERE////
 
       }
     })

@@ -76,6 +76,7 @@
             var Incident = Parse.Object.extend("Incident");
             var incident = new Incident();
             incident.save({
+              address_key : address,
               lat : results[0].geometry.location.H,
               lon : results[0].geometry.location.L,
               descrip: Descrip,
