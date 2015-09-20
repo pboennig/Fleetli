@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fleetly</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="report.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.parsecdn.com/js/parse-latest.js"></script>
+
+  <meta name="viewport"
+    content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  </meta>
+
+
+  </head>
+  
+  
+
+  <body>
+  <form class="form-inline">
+  <div id="floating-panel">
+    <div class="forum-group form-group-lg"> 
+    <label> Fleetli </label>
+
+      <input id="address" type="text" class="form-control" placeholder="Incident Location">
+
+      <input id="descrip" type="text" class="form-control"placeholder="Description">
+
+      <input id="numPC" type="text" class="form-control"placeholder="Number of Cars Needed">
+      <input id="submit" class="btn btn-primary btn-lg" type="button" class="enter" value="Report">
+      <input id="reset" class="btn btn-danger btn-lg" type="button" class="enter" value="Reset">  
+      <button id="dispatch" type="button" class = "btn btn-link btn-lg"> <a href="testDispatch.html"> Dispatch </a> </button></div>
+    </div>
+    
+    </div>
+    </form>
+    <div id="map"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqNnf-iMox3CFoo6amrhm2CYmzMEebIo4&signed_in=true&callback=initMap"
+        async defer></script>
+      <script type="text/javascript" src="app.js"></script>
+
+  </body>
+</html>
