@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "Fleetly": {
+      "applicationId": "QEY1ZxKqnPoVpxyZ4YHXBb5t13iRvrW8jXAU72Bf"
+    },
+    "_default": {
+      "link": "Fleetly"
+    }
+  }
+}
