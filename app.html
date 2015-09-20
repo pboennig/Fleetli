@@ -30,7 +30,6 @@
 }
 
 .enter {
-  height = 9%;
   font-size: 14pt;
 }
 
@@ -49,6 +48,8 @@
     <script>
      Parse.initialize("QEY1ZxKqnPoVpxyZ4YHXBb5t13iRvrW8jXAU72Bf", "q38ZsxLSoehX2w8HAPuJVwe4qDxUyf2xoUhXCkTJ");
       function initMap() {
+
+
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 12,
           center: {lat: 37.78, lng: -122.42}
@@ -64,31 +65,32 @@
               if (e.keyCode == 13) {
                geocodeAddress(geocoder, map); 
     }
+  });
+      }
         
-
-});
-      }
-
-      function getCars() {
-        query
-      }
+    
+     
       
       function geocodeAddress(geocoder, resultsMap) {
         var address = document.getElementById('address').value;
         geocoder.geocode({'address': address}, function(results, status) {
           if (status === google.maps.GeocoderStatus.OK) {
             resultsMap.setCenter(results[0].geometry.location);
+            
             var marker = new google.maps.Marker({
               map: resultsMap,
               position: results[0].geometry.location
             });
+
+
             var Descrip = document.getElementById("descrip").value;
             var numPC = parseInt(document.getElementById("numPC").value);
             
             var Incident = Parse.Object.extend("Incident");
             var incident = new Incident();
             incident.save({
-              pos : results[0].geometry.location,
+              lat : results[0].geometry.location.H,
+              lon : results[0].geometry.location.L,
               descrip: Descrip,
               numPC : numPC,
             });
@@ -99,6 +101,8 @@
           }
         });
       }
+
+
 
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqNnf-iMox3CFoo6amrhm2CYmzMEebIo4&signed_in=true&callback=initMap"

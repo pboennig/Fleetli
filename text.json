@@ -1,0 +1,417 @@
+ {
+    "locations": {
+        "features": [
+            {
+                "geometry": {
+                    "coordinates": [
+                        -122.384215,
+                        37.758473
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "data": {
+                        "vehicleSpeed": 132
+                    },
+                    "id": "4d4bc230-c5af-404b-8752-c994469235de",
+                    "links": {
+                        "self": "https://telemetry.vin.li/api/v1/messages/4d4bc230-c5af-404b-8752-c994469235de"
+                    },
+                    "timestamp": "2015-09-20T04:22:55.236Z"
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": {
+                    "coordinates": [
+                        -122.384215,
+                        37.758473
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "data": {
+                        "vehicleSpeed": 132
+                    },
+                    "id": "11825f41-6a79-429e-9935-3ced64063be8",
+                    "links": {
+                        "self": "https://telemetry.vin.li/api/v1/messages/11825f41-6a79-429e-9935-3ced64063be8"
+                    },
+                    "timestamp": "2015-09-20T04:22:52.228Z"
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": {
+                    "coordinates": [
+                        -122.384215,
+                        37.758473
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "data": {
+                        "vehicleSpeed": 132
+                    },
+                    "id": "b5569744-9e0d-465a-b7e6-a40a0c05b667",
+                    "links": {
+                        "self": "https://telemetry.vin.li/api/v1/messages/b5569744-9e0d-465a-b7e6-a40a0c05b667"
+                    },
+                    "timestamp": "2015-09-20T04:22:48.906Z"
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": {
+                    "coordinates": [
+                        -122.384215,
+                        37.758473
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "data": {
+                        "vehicleSpeed": 132
+                    },
+                    "id": "894a26e3-a2b6-41b3-a38e-6ef9a13d03e8",
+                    "links": {
+                        "self": "https://telemetry.vin.li/api/v1/messages/894a26e3-a2b6-41b3-a38e-6ef9a13d03e8"
+                    },
+                    "timestamp": "2015-09-20T04:22:45.874Z"
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": {
+                    "coordinates": [
+                        -122.384215,
+                        37.758473
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "data": {
+                        "vehicleSpeed": 132
+                    },
+                    "id": "b3f20d3a-2da8-4421-83af-b91c3fcd6b4c",
+                    "links": {
+                        "self": "https://telemetry.vin.li/api/v1/messages/b3f20d3a-2da8-4421-83af-b91c3fcd6b4c"
+                    },
+                    "timestamp": "2015-09-20T04:22:42.758Z"
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": {
+                    "coordinates": [
+                        -122.384215,
+                        37.758473
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "data": {
+                        "vehicleSpeed": 132
+                    },
+                    "id": "907572e2-280e-41a2-9334-f937bcaaac06",
+                    "links": {
+                        "self": "https://telemetry.vin.li/api/v1/messages/907572e2-280e-41a2-9334-f937bcaaac06"
+                    },
+                    "timestamp": "2015-09-20T04:22:39.008Z"
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": {
+                    "coordinates": [
+                        -122.384215,
+                        37.758473
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "data": {
+                        "vehicleSpeed": 132
+                    },
+                    "id": "5f292006-beca-4f54-9f83-5eb106d84ff6",
+                    "links": {
+                        "self": "https://telemetry.vin.li/api/v1/messages/5f292006-beca-4f54-9f83-5eb106d84ff6"
+                    },
+                    "timestamp": "2015-09-20T04:22:35.980Z"
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": {
+                    "coordinates": [
+                        -122.384215,
+                        37.758473
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "data": {
+                        "vehicleSpeed": 132
+                    },
+                    "id": "8c065194-3037-4bf5-b0d2-9cb66c2dc427",
+                    "links": {
+                        "self": "https://telemetry.vin.li/api/v1/messages/8c065194-3037-4bf5-b0d2-9cb66c2dc427"
+                    },
+                    "timestamp": "2015-09-20T04:22:32.974Z"
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": {
+                    "coordinates": [
+                        -122.384215,
+                        37.758473
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "data": {
+                        "vehicleSpeed": 132
+                    },
+                    "id": "cda10275-ac73-4f00-9d44-ff6cbf194125",
+                    "links": {
+                        "self": "https://telemetry.vin.li/api/v1/messages/cda10275-ac73-4f00-9d44-ff6cbf194125"
+                    },
+                    "timestamp": "2015-09-20T04:22:28.364Z"
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": {
+                    "coordinates": [
+                        -122.384215,
+                        37.758473
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "data": {
+                        "vehicleSpeed": 132
+                    },
+                    "id": "61632ea2-0f19-4f09-ab37-a9db06b98e86",
+                    "links": {
+                        "self": "https://telemetry.vin.li/api/v1/messages/61632ea2-0f19-4f09-ab37-a9db06b98e86"
+                    },
+                    "timestamp": "2015-09-20T04:22:25.357Z"
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": {
+                    "coordinates": [
+                        -122.384215,
+                        37.758473
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "data": {
+                        "vehicleSpeed": 132
+                    },
+                    "id": "7c1396cf-f494-4890-91e3-67ce19ea691c",
+                    "links": {
+                        "self": "https://telemetry.vin.li/api/v1/messages/7c1396cf-f494-4890-91e3-67ce19ea691c"
+                    },
+                    "timestamp": "2015-09-20T04:22:22.321Z"
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": {
+                    "coordinates": [
+                        -122.384215,
+                        37.758473
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "data": {
+                        "vehicleSpeed": 132
+                    },
+                    "id": "8df68838-d17b-4a5d-beb7-66f3a04c033d",
+                    "links": {
+                        "self": "https://telemetry.vin.li/api/v1/messages/8df68838-d17b-4a5d-beb7-66f3a04c033d"
+                    },
+                    "timestamp": "2015-09-20T04:22:19.234Z"
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": {
+                    "coordinates": [
+                        -122.384215,
+                        37.758472
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "data": {
+                        "vehicleSpeed": 132
+                    },
+                    "id": "7ad699e3-c5e1-4f42-95da-740c5ed2d7c0",
+                    "links": {
+                        "self": "https://telemetry.vin.li/api/v1/messages/7ad699e3-c5e1-4f42-95da-740c5ed2d7c0"
+                    },
+                    "timestamp": "2015-09-20T04:22:16.053Z"
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": {
+                    "coordinates": [
+                        -122.384215,
+                        37.758472
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "data": {
+                        "vehicleSpeed": 132
+                    },
+                    "id": "1ac3e6da-517d-4f26-8764-f7bfeafb55e0",
+                    "links": {
+                        "self": "https://telemetry.vin.li/api/v1/messages/1ac3e6da-517d-4f26-8764-f7bfeafb55e0"
+                    },
+                    "timestamp": "2015-09-20T04:22:12.975Z"
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": {
+                    "coordinates": [
+                        -122.384214,
+                        37.758472
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "data": {
+                        "vehicleSpeed": 132
+                    },
+                    "id": "5fd58712-0178-41ec-8600-bcd7e8b4108e",
+                    "links": {
+                        "self": "https://telemetry.vin.li/api/v1/messages/5fd58712-0178-41ec-8600-bcd7e8b4108e"
+                    },
+                    "timestamp": "2015-09-20T04:22:08.840Z"
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": {
+                    "coordinates": [
+                        -122.384213,
+                        37.758472
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "data": {},
+                    "id": "90b8252f-bfdc-4b55-b3a2-a161b10d0dee",
+                    "links": {
+                        "self": "https://telemetry.vin.li/api/v1/messages/90b8252f-bfdc-4b55-b3a2-a161b10d0dee"
+                    },
+                    "timestamp": "2015-09-20T04:22:05.816Z"
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": {
+                    "coordinates": [
+                        -122.384213,
+                        37.758472
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "data": {
+                        "vehicleSpeed": 132
+                    },
+                    "id": "cf18bbfa-2f72-4900-ba9b-914459c1ae2d",
+                    "links": {
+                        "self": "https://telemetry.vin.li/api/v1/messages/cf18bbfa-2f72-4900-ba9b-914459c1ae2d"
+                    },
+                    "timestamp": "2015-09-20T04:22:02.584Z"
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": {
+                    "coordinates": [
+                        -122.384213,
+                        37.758472
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "data": {
+                        "vehicleSpeed": 132
+                    },
+                    "id": "ec2de89e-4b53-450c-b9df-aae13800604a",
+                    "links": {
+                        "self": "https://telemetry.vin.li/api/v1/messages/ec2de89e-4b53-450c-b9df-aae13800604a"
+                    },
+                    "timestamp": "2015-09-20T04:21:59.566Z"
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": {
+                    "coordinates": [
+                        -122.384214,
+                        37.758472
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "data": {
+                        "vehicleSpeed": 132
+                    },
+                    "id": "16bd11c3-f2cf-44f2-9170-2d25064b0a46",
+                    "links": {
+                        "self": "https://telemetry.vin.li/api/v1/messages/16bd11c3-f2cf-44f2-9170-2d25064b0a46"
+                    },
+                    "timestamp": "2015-09-20T04:21:56.495Z"
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": {
+                    "coordinates": [
+                        -122.384214,
+                        37.758472
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "data": {
+                        "vehicleSpeed": 132
+                    },
+                    "id": "595ece1d-6bd2-4aec-9b73-db06c5dcdec1",
+                    "links": {
+                        "self": "https://telemetry.vin.li/api/v1/messages/595ece1d-6bd2-4aec-9b73-db06c5dcdec1"
+                    },
+                    "timestamp": "2015-09-20T04:21:53.480Z"
+                },
+                "type": "Feature"
+            }
+        ],
+        "type": "FeatureCollection"
+    },
+    "meta": {
+        "pagination": {
+            "limit": 20,
+            "links": {
+                "prior": "https://telemetry.vin.li/api/v1/devices/a720ca30-8f1a-4f83-88dd-19f8961e4453/locations?fields=vehicleSpeed&until=1442722913479"
+            },
+            "remaining": 1890,
+            "since": "1970-01-01T00:00:00.000Z",
+            "sortDir": "desc",
+            "until": "2015-09-20T04:22:57.929Z"
+        }
+    }
+}
